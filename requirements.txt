@@ -1,0 +1,33 @@
+# RAG 知识库问答系统 - 依赖列表
+
+# LangChain 核心
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-ollama>=0.2.0
+
+# 向量数据库
+chromadb>=0.5.0
+
+# 文档加载
+pypdf>=4.0.0
+
+# 向量嵌入（备选，主要用 Ollama）
+sentence-transformers>=3.0.0
+
+# Web 界面
+streamlit>=1.30.0
+
+# 混合检索（BM25）
+rank-bm25>=0.2.2
+
+# PyTorch（CUDA 支持）
+torch>=2.0.0
+transformers>=4.40.0
+
+# 外接 DeepSeek API（OpenAI 兼容接口）
+openai>=1.0.0
+# 可选：安装后 DeepSeek 走官方 LangChain 封装（未安装时使用内置适配器）
+# langchain-openai>=0.3.0
+
+# .env 环境变量支持
+python-dotenv>=1.0.0

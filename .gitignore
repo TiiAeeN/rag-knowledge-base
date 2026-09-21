@@ -1,0 +1,21 @@
+# ---- 密钥 ----
+.env
+.env.*
+!.env.example
+
+# ---- Python ----
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# ---- 工具状态 / 编辑器 ----
+.workbuddy/
+.vscode/
+.idea/
+
+# ---- 日志 ----
+*.log
+
+# 向量库是生成物，可用 knowledge_base/ 重建，不进仓库
+data/
